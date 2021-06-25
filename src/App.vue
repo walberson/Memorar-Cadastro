@@ -156,6 +156,7 @@
 </template>
 
 <script>
+import axios from "axios";
 export default {
   name: "App",
   components: {},
@@ -176,12 +177,25 @@ export default {
         this.errorMessage = "As senhas não são iguais, por favor verifique";
       } else {
         this.showErrorMessage = false;
-        this.users.push({
-          id: this.users.length + 1,
-          ...this.userForm,
+
+        const data = new URLSearchParams();
+
+        for (var [key, value] of Object.entries(this.userForm)) {
+          data.append(key, value);
+        }
+        axios.post("http://localhost:9090/users", data).then(() => {
+          this.getUsers();
         });
       }
     },
+    getUsers: function () {
+      axios.get("http://localhost:9090/users").then((response) => {
+        this.users = response.data;
+      });
+    },
+  },
+  mounted: function () {
+    this.getUsers();
   },
 };
 </script>
