@@ -1,4 +1,4 @@
-<img src="./public/example.jpg" alt="example" width="200"/>
+<img src="./public/example.jpg" alt="example" width="600"/>
  <p align="center">
   #MEMORAR
   <br />
