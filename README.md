@@ -1,6 +1,6 @@
-  <p align="center">
+   ![alt text](https://github.com/walberson/Memorar-Cadastro/blob/main/public/example.jpg)
+ <p align="center">
   #MEMORAR
-  ![alt text](https://github.com/walberson/Memorar-Cadastro/blob/main/public/example.jpg)
   <br />
     Sistema de cadastro simples com banco de dados = Memorar
     <br />
