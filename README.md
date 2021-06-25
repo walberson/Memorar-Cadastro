@@ -1,5 +1,6 @@
-<img src="./public/example.jpg" alt="example" width="350"/>
+
  <p align="center">
+ <img src="./public/example.jpg" alt="example" width="350"/>
   #MEMORAR
   <br />
     Sistema de cadastro simples com banco de dados = Memorar
