@@ -1,4 +1,4 @@
-   ![](./public/example.jpg)
+<img src="./public/example.jpg" alt="example" width="200"/>
  <p align="center">
   #MEMORAR
   <br />
