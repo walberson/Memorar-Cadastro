@@ -1,4 +1,4 @@
-   ![alt text](https://github.com/walberson/Memorar-Cadastro/blob/main/public/example.jpg)
+   ![alt text](https://github.com/walberson/Memorar-Cadastro/blob/main/public/example.jpg =300x600)
  <p align="center">
   #MEMORAR
   <br />
