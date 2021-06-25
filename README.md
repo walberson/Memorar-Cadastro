@@ -2,9 +2,9 @@
  <p align="center">
  <img src="./public/example.jpg" alt="example" width="350"/>
  <br />
-  #MEMORAR
+  #MEMORAR REGISTRATION
   <br />
-    Sistema de cadastro simples com banco de dados = Memorar
+    Simple registration system with database
     <br />
     <a href="https://github.com/walberson/Memorar-Cadastro"><strong>Explore the docs »</strong></a>
     <br />
@@ -47,10 +47,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[Memorar Cadastro]
+[Memorar Registration]
 
   <p>
-  Um sistema de cadastro com frontend em Vue e Backend Symphony & MariaDB </p>
+  
+A registration system with Vue frontend and Symphony & MariaDB backend </p>
 
 
   
@@ -73,11 +74,10 @@ Below you will find information on how to use the software for the first time.
 
 ### Prerequisites
 
-<p>Para rodar o software você precisa:</p>
-<p>Executar e baixar as dependências com yarn ou npm</p>
-<p>Copiar as informações do backend para um container Symphony</p>
-<p>Executar o componente e o VueJs com yarn serve</p>
-
+<p>To run the software you need:</p>
+<p>Run and download dependencies with yarn or npm</p>
+<p>Copy the backend information to a Symphony container</p>
+<p>Run component and VueJs with yarn serve</p>
 ### Installation
 
 1. Clone the repo on
